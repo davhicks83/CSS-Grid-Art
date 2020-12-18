@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr 3fr 3fr 2fr;
+    grid-template-columns: 2fr 2fr 3fr 3fr 2fr 1fr ;
+    grid-template-areas:    header  header  header  header;
+                            aside   m;
+}
+
+header {
+    background-color: lightblue;
+    grid-area: header header header header;
+
+
+}
